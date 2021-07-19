@@ -1,0 +1,17 @@
+th,td{
+	padding: 2;
+}
+
+
+table {
+ border-collapse: separate; border-spacing: 5px; 
+}
+
+.ng-dirty{
+	border-color=red;
+}
+
+.grid {
+  width: 500px;
+  height: 250px;
+}

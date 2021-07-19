@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/app.css" type="text/css"></link>
+</head>
+<body>
+<table style="color: white;">
+	<tr>
+		<td>
+			<div data-ng-click="appCtrl.setCounter(appCtrl.getCounter()+1)">
+				<a href="">+</a>
+			</div>
+			<div data-ng-click="appCtrl.setCounter(appCtrl.getCounter()-1)">
+				<a href="">-</a>
+			</div>
+			<div>Click count : {{appCtrl.getCounter() | currency}}</div>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

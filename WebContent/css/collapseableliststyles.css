@@ -1,0 +1,54 @@
+      .treeView{
+        -moz-user-select:none;
+        position:relative;
+        color: white;
+      }
+
+      .treeView ul{
+        margin:0 0 0 -1.5em;
+        padding:0 0 0 1.5em;
+      }
+
+      .treeView ul ul{
+        background:url('../images/icons/menuicons/list-item-contents.png') repeat-y left;
+      }
+
+      .treeView li.lastChild > ul{
+        background-image:none;
+      }
+
+      .treeView li{
+        margin:0;
+        padding:0;
+        background:url('../images/icons/menuicons/list-item-root.png') no-repeat top left;
+        list-style-position:inside;
+        list-style-image:url('../images/icons/menuicons/button.png');
+        cursor:auto;
+      }
+
+      .treeView li.collapsibleListOpen{
+        list-style-image:url('../images/icons/menuicons/button-open.png');
+        cursor:pointer;
+      }
+
+      .treeView li.collapsibleListClosed{
+        list-style-image:url('../images/icons/menuicons/button-closed.png');
+        cursor:pointer;
+      }
+
+      .treeView li li{
+        background-image:url('../images/icons/menuicons/list-item.png');
+        padding-left:1.5em;
+      }
+
+      .treeView li.lastChild{
+        background-image:url('../images/icons/menuicons/list-item-last.png');
+      }
+
+      .treeView li.collapsibleListOpen{
+        background-image:url('../images/icons/menuicons/list-item-open.png');
+      }
+
+      .treeView li.collapsibleListOpen.lastChild{
+        background-image:url('../images/icons/menuicons/list-item-last-open.png');
+      }
