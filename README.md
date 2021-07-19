@@ -11,5 +11,5 @@ Backed is Java Servlet "DomainObjectsManager" that takes JSON request for domain
 
 The upcoming efforts might include, switching the front end from AngularJS to Vue. 
 
-
+NOTE: This project requires PMSORM to be installed in your local maven repository, so before building this project, please download and install pmsorm project.
 
