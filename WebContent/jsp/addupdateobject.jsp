@@ -142,7 +142,7 @@ var url = <%=url%>;
 		</form>
 <div ng-show="strRequestResults.length>1" ng-bind-html="strRequestResults"></div>
 <!-- <br> -->
-<!-- JSON-->{{appCtrl.jsonString}} -->
+<!-- JSON-->
 <!-- <br> -->
 <!-- {{selectedPasswords1|json}} -->
 <!-- <br> -->
